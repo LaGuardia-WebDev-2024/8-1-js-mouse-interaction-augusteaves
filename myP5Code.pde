@@ -13,9 +13,7 @@ void setup(){
   fill(48, 130, 31);
   rect(276, 103, 12, 32); 
 
-  // take a bite out of the tomato!
-  fill(255, 255, 255);
-  ellipse(175, 200, 30, 30);
+
 }
 
 //🎯Variable Declarations Go Here
@@ -23,7 +21,9 @@ void setup(){
 
 //🟢Draw Function - Runs on Repeat
 draw = function(){  
-
+  // take a bite out of the tomato!
+  fill(255, 255, 255);
+  ellipse(mouseX, mouseY, 30, 30);
 };
 
 //🟡Mouse Pressed Procedue - Runs When Mouse is Pressed on Canvas
